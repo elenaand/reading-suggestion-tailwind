@@ -5,10 +5,11 @@ import SuggestionPage from "./pages/SuggestionPage";
 function App() {
   return (
     <div>
-      <header>
-        <Link to="/">Get reading suggestion</Link>
-        <Link to="/reading-suggestions">Edit possible suggestions</Link>
-      </header>
+      <div className="m-3 mb-10">
+        <Link className="font-bold uppercase text-sm py-4 pr-2 pl-4 bg-beige rounded-bl-3xl hover:bg-opacity-75" to="/">Tilfeldig lesemål</Link>
+        <Link className="font-bold uppercase text-sm py-4 pl-2 pr-4 bg-beige rounded-br-3xl hover:bg-opacity-75" to="/reading-suggestions">Rediger lesemål</Link>
+      </div>
+
       <Routes>
         <Route
           path="/reading-suggestions"
