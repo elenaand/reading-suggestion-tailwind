@@ -43,9 +43,10 @@ const EditSuggestionPage = () => {
         <textarea
           name="reading-prompts"
           rows={15}
-          cols={33}
+          cols={40}
           onChange={onChange}
           value={suggestions}
+          className="border-2 border-brown rounded-md mx-2"
         />
       }
     </div>
