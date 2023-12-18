@@ -23,7 +23,7 @@ const EditSuggestionPage = () => {
           <li>Trykk på "Rediger lesemål"-knappen</li>
           <li>Legg til dine lesemål i listen</li>
           <li>Separere målene med komma ","</li> 
-          <li>Klikk tilbake til "Tilfeldig lesemål" for å få et tilfeldig mål fra listen din.</li>
+          <li>Klikk på "Ditt lesemål" for å få et tilfeldig mål fra listen.</li>
         </ol>
       </p>
 
@@ -43,7 +43,7 @@ const EditSuggestionPage = () => {
         <textarea
           name="reading-prompts"
           rows={15}
-          cols={40}
+          cols={35}
           onChange={onChange}
           value={suggestions}
           className="border-2 border-brown rounded-md mx-2"

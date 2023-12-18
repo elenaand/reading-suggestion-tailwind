@@ -5,9 +5,9 @@ import SuggestionPage from "./pages/SuggestionPage";
 function App() {
   return (
     <div>
-      <div className="m-3 mb-10">
-        <Link className="font-bold uppercase text-sm py-4 pr-2 pl-4 bg-beige rounded-bl-3xl hover:bg-opacity-75" to="reading-suggestion-tailwind/">Tilfeldig lesemål</Link>
-        <Link className="font-bold uppercase text-sm py-4 pl-2 pr-4 bg-beige rounded-br-3xl hover:bg-opacity-75" to="reading-suggestion-tailwind/reading-suggestions">Rediger lesemål</Link>
+      <div className="flex items-center justify-center mb-10">
+        <Link className="font-semibold uppercase text-sm py-3 pr-2 pl-4 bg-beige rounded-bl-2xl hover:bg-opacity-75" to="reading-suggestion-tailwind/">Ditt lesemål</Link>
+        <Link className="font-semibold uppercase text-sm py-3 pl-2 pr-4 bg-beige rounded-br-2xl hover:bg-opacity-75" to="reading-suggestion-tailwind/reading-suggestions">Rediger lesemål</Link>
       </div>
 
       <Routes>
